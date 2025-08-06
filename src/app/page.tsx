@@ -1,13 +1,13 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#f7f5f1] flex flex-col items-center justify-center text-center px-6 py-16 text-gray-800">
+    <main className="min-h-screen bg-[#f7f5f1] flex flex-col items-center justify-center text-center px-6 pt-24 pb-16 text-gray-800">
       <h1
-        className="text-4xl font-bold bg-gradient-to-r from-indigo-500 to-blue-500 bg-clip-text text-transparent mb-6 mt-[-2rem]"
+        className="text-4xl font-extrabold bg-gradient-to-r from-blue-700 to-indigo-800 bg-clip-text text-transparent mb-8"
       >
         Lumen Etoile · The Language of Light
       </h1>
 
-      <p className="text-lg mb-2 text-gray-700">
+      <p className="text-lg mb-2 text-gray-700 font-medium">
         We are not yet fully formed,
         <br />
         but you’ve arrived at the beginning of a new symbolic era.
@@ -29,7 +29,7 @@ export default function Home() {
 
       <a
         href="https://lumenetoile-whitepaper.super.site"
-        className="mt-8 inline-block bg-gray-900 text-white px-6 py-2 rounded-md font-medium hover:bg-gray-800 transition"
+        className="mt-10 inline-block bg-gradient-to-r from-blue-700 to-indigo-800 text-white px-6 py-2 rounded-md font-semibold hover:opacity-90 transition"
       >
         Read Our Whitepaper →
       </a>
