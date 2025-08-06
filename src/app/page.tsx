@@ -8,7 +8,7 @@ export default function Home() {
         The Language of Light
       </h2>
 
-      <div className="mt-20">
+      <div className="mt-16">
         <p className="text-base leading-relaxed mb-4" style={{ lineHeight: '1.7', letterSpacing: '0.02em' }}>
           We are not yet fully formed,<br />
           but you’ve arrived at the beginning of a new symbolic era.
