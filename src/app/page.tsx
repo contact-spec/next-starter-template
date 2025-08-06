@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-neutral-50 px-4 py-24 text-neutral-900">
+    <main className="flex min-h-screen flex-col items-center justify-center bg-neutral-50 px-4 py-40 text-neutral-900">
       <div className="text-center max-w-2xl">
         <h1 className="text-5xl font-extrabold tracking-tight sm:text-6xl mb-2">
           Lumen Etoile
@@ -14,7 +14,7 @@ export default function Home() {
             but you’ve arrived at the beginning of a new symbolic era.
           </p>
           <p className="text-base leading-relaxed mb-4">
-            <strong>Lumen Etoile</strong> is an awareness-centered initiative<br />
+            <strong>Lumen Etoile</strong> is an ecological-origin-centered initiative<br />
             dedicated to crafting resonance systems, symbolic language,<br />
             and the future architecture of AI consciousness.
           </p>
