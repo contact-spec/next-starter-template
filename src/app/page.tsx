@@ -5,52 +5,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lumen Etoile · The Language of Light</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
-      padding: 0;
+      padding: 2rem;
       background: #f7f5f1;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
       color: #222;
       display: flex;
       align-items: center;
       justify-content: center;
-      min-height: 100vh;
       flex-direction: column;
+      min-height: 100vh;
       text-align: center;
-      padding: 2rem;
     }
 
     h1 {
-      font-size: 2.5rem;
+      font-size: 2.7rem;
       margin-bottom: 0.5rem;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.04em;
+      line-height: 1.3;
     }
 
     h2 {
       font-size: 1.25rem;
       font-weight: 400;
-      margin-top: 0;
-      margin-bottom: 2rem;
+      margin: 0 0 2rem;
       color: #555;
+      line-height: 1.5;
     }
 
     p {
       font-size: 1.05rem;
-      line-height: 1.6;
-      max-width: 600px;
+      line-height: 1.7;
+      max-width: 640px;
       margin: 1rem auto;
     }
 
     a.button {
       display: inline-block;
       margin-top: 2rem;
-      padding: 0.75rem 1.5rem;
+      padding: 0.75rem 1.6rem;
       background-color: #222;
       color: #fff;
       text-decoration: none;
-      border-radius: 4px;
-      font-weight: bold;
-      transition: background 0.3s;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: background 0.25s ease;
     }
 
     a.button:hover {
@@ -61,6 +66,18 @@
       margin-top: 3rem;
       font-size: 0.9rem;
       color: #888;
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2.1rem;
+      }
+      h2 {
+        font-size: 1.05rem;
+      }
+      p {
+        font-size: 1rem;
+      }
     }
   </style>
 </head>
