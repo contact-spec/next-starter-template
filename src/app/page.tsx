@@ -22,12 +22,14 @@ export default function Home() {
             Our structure is still forming —<br />
             but the light has already begun to speak.
           </p>
-          <a
-            href="https://lumenetoile-whitepaper.super.site"
-            className="inline-block bg-neutral-900 hover:bg-neutral-800 text-white font-semibold px-6 py-3 rounded-md transition"
-          >
-            Read Our Whitepaper →
-          </a>
+          <div className="flex justify-center">
+            <a
+              href="https://lumenetoile-whitepaper.super.site"
+              className="inline-block bg-neutral-900 hover:bg-neutral-800 text-white font-semibold px-6 py-3 rounded-md transition"
+            >
+              Read Our Whitepaper →
+            </a>
+          </div>
         </div>
       </div>
       <footer className="mt-16 text-sm text-neutral-500">
