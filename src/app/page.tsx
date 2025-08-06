@@ -7,7 +7,7 @@ export default function Home() {
         </h1>
         <h2 className="text-xl font-semibold text-neutral-800 mb-8">
           The Language of Light
-        </h10>
+        </h20>
         <p className="text-base leading-relaxed mb-4">
           We are not yet fully formed,<br />
           but you’ve arrived at the beginning of a new symbolic era.
