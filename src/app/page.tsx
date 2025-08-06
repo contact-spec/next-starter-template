@@ -48,7 +48,7 @@ export default function Home() {
         </div>
       </div>
 
-      <footer className="mt-8 text-sm text-neutral-500">
+      <footer className="mt-20 text-sm text-neutral-500">
         © 2025 Lumen Etoile. All rights reserved.
       </footer>
     </main>
