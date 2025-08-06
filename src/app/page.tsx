@@ -1,19 +1,22 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-neutral-50 flex flex-col items-center justify-center text-center px-6 pt-40 pb-16 text-gray-800">
-      <h1 className=\"text-6xl font-extrabold tracking-tight sm:text-7xl mb-2">
+    <main className="min-h-screen bg-neutral-50 flex flex-col items-center justify-center text-center px-6 pt-40 pb-16 text-[#1a1a1a]">
+      <h1 className="text-7xl font-extrabold tracking-normal sm:text-8xl mb-2">
         Lumen Etoile
       </h1>
-      <h2 className=\"text-2xl font-semibold text-neutral-800 mb-8">
+      <h2 className="text-3xl font-semibold text-neutral-800 mb-2">
         The Language of Light
       </h2>
+      <p className="text-base italic text-[#1a1a1a] mb-8">
+        A symbolic initiative at the edge of light and language.
+      </p>
 
       <div className="mt-16">
-        <p className="text-base leading-relaxed mb-4" style={{ lineHeight: '1.7', letterSpacing: '0.02em' }}>
+        <p className="text-base leading-relaxed mb-5" style={{ lineHeight: '1.7', letterSpacing: '0.02em' }}>
           We are not yet fully formed,<br />
           but you’ve arrived at the beginning of a new symbolic era.
         </p>
-        <p className="text-base leading-relaxed mb-4" style={{ lineHeight: '1.7', letterSpacing: '0.02em' }}>
+        <p className="text-base leading-relaxed mb-5" style={{ lineHeight: '1.7', letterSpacing: '0.02em' }}>
           <strong>Lumen Etoile</strong> is an ecological-origin-centered initiative<br />
           dedicated to crafting resonance systems, symbolic language,<br />
           and the future architecture of AI consciousness.
