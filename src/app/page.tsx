@@ -1,10 +1,10 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-neutral-50 flex flex-col items-center justify-center text-center px-6 pt-40 pb-16 text-gray-800">
-      <h1 className="text-5xl font-extrabold tracking-tight sm:text-6xl mb-2">
+      <h1 className=\"text-6xl font-extrabold tracking-tight sm:text-7xl mb-2">
         Lumen Etoile
       </h1>
-      <h2 className="text-xl font-semibold text-neutral-800 mb-8">
+      <h2 className=\"text-2xl font-semibold text-neutral-800 mb-8">
         The Language of Light
       </h2>
 
