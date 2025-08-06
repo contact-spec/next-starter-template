@@ -4,10 +4,10 @@ export default function Home() {
       <h1 className="text-7xl font-extrabold tracking-normal sm:text-8xl mb-2">
         Lumen Etoile
       </h1>
-      <h2 className="text-3xl font-semibold text-neutral-800 mb-2">
+      <h2 className="text-3xl font-bold text-neutral-800 mb-2">
         The Language of Light
       </h2>
-      <p className="text-base italic text-[#1a1a1a] mb-8">
+      <p className=\"text-sm italic text-[#1a1a1a] mb-8\">
         A symbolic initiative at the edge of light and language.
       </p>
 
