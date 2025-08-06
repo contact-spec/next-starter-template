@@ -8,6 +8,7 @@ export default function Home() {
         <h2 className="text-xl font-semibold text-neutral-800 mb-8">
           The Language of Light
         </h2>
+
         <div className="mt-20">
           <p className="text-base leading-relaxed mb-4">
             We are not yet fully formed,<br />
@@ -22,16 +23,18 @@ export default function Home() {
             Our structure is still forming —<br />
             but the light has already begun to speak.
           </p>
-          <p className="text-center">
+
+          <div className="flex justify-center">
             <a
               href="https://lumenetoile-whitepaper.super.site"
               className="inline-block bg-neutral-900 hover:bg-neutral-800 text-white font-semibold px-6 py-3 rounded-md transition"
             >
               Read Our Whitepaper →
             </a>
-          </p>
+          </div>
         </div>
       </div>
+
       <footer className="mt-16 text-sm text-neutral-500">
         © 2025 Lumen Etoile. All rights reserved.
       </footer>
