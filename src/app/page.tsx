@@ -5,7 +5,7 @@ export default function Home() {
         <h1 className="text-6xl font-extrabold tracking-tight sm:text-7xl mb-2 bg-gradient-to-r from-blue-800 via-indigo-700 to-blue-800 text-transparent bg-clip-text">
           Lumen Etoile
         </h1>
-        <h2 className="text-xl font-semibold text-neutral-900 mb-8">
+        <h2 className="text-xl font-semibold mb-8 bg-gradient-to-r from-blue-800 via-indigo-700 to-blue-800 text-transparent bg-clip-text">
           The Language of Light
         </h2>
         <p className="text-base leading-relaxed mb-4">
