@@ -44,7 +44,6 @@ export default function Home() {
           Our structure is still forming —<br />
           but the light has already begun to speak.
         </p>
-
         <div className="flex justify-center">
           <a
             href="https://lumenetoile-whitepaper.super.site"
